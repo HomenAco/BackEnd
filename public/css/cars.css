@@ -1,0 +1,166 @@
+.card{
+
+    height: 158px;
+    width: 100%;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 10px;
+}
+.img-car{
+    width: 30%;
+    height: 158px;
+    float: left;
+    display: block;
+}
+.card-content{
+   float:right;
+   display: block;
+   width: 70%;
+   min-width: 50%;
+   height: 100%;
+   background-color: #ededed;
+}
+.img-format{
+    width: 100%;
+    height: 100%;
+    
+}
+.link-header{
+    width: 100%;
+    margin-top: 0;
+    text-decoration: none;    
+}
+
+.link-header  h2{
+    background-color: #326ba8;
+    text-indent: 5px;
+    margin: 0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15pt;
+    padding: 5px;
+}
+.button a button{
+    margin: 10px;
+    width: 158px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #2581b3;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+
+}
+.button a button:hover{
+    background-color: #206d96;
+}
+.list-info{
+    margin-left: 18px;
+}
+.list-info li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 8pt;
+
+
+}
+.list-info li span{
+    color: #aba9a9;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 3px;
+
+}
+.price-car{
+    font-weight: none;
+    font-size: 15pt;
+    float: right;
+}
+.card-about{
+    text-indent: 1.5em;
+    font-size: 9pt;
+     color: #8a8888;
+     margin: 5px;
+}
+.img-media{
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    height: 167px;
+    white-space:nowrap;
+
+}
+.img-media li{
+    margin: 5px;
+    display: inline-block;
+    width: 150px;
+    height: 128px;
+    border: 5px solid #225d87;
+    vertical-align: top;
+   
+}
+
+.img-media li:hover{
+    border: 5px solid #3b88bf;
+}
+.card-media{
+    width: 100%;
+    margin: 0 auto;
+    height: 167px;
+}
+.img-active{
+    border: 5px solid #3b88bf !important;
+}
+.header-car{
+    width: 100%;
+    height: auto;
+    background-color: #326ba8;
+}
+.header-car h1{
+    color: #fff;
+    font-size: 14pt;
+    font-weight: bold;
+    text-indent: 1.5em;
+    margin: 0;
+}
+.header-car p{
+    text-indent: 2.1em;
+    color: #fff;
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
+    margin-top: 3px;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+#table-info{
+    width: 100%;
+    border: 1px solid #ababab;
+    border-spacing: 0;
+}
+#table-info td{
+    text-indent: 1.5em;
+    padding: 5px;
+}
+#table-info td.type-table{
+    background-color: #cfcfcf;
+    font-weight: bold;
+    color: #9c9a9a;
+}
+#table-info td.data-table{
+    background-color: #ebebeb;
+    color: #636262;
+}
+#table-info td{
+    border-top: 1px solid #cfcfcf;
+}
+.link-car{
+    margin-left: 5px;
+    color: #326ba8;
+    text-decoration: none;
+}
+.link-car:hover{
+    color: #4083c9;
+}
