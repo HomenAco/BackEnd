@@ -13,14 +13,7 @@
                                 isset($_GET['ano_ate']) ? $_GET['ano_ate'] : false,
                                 isset($_GET['min_preco']) ? $_GET['min_preco'] : false,
                                 isset($_GET['max_preco']) ? $_GET['max_preco'] : false);
-    $lista = $carrosPesquisa->listarVeiculos();
-
-    /*    for($i=0;$i<sizeof($this->jsonDados);$i++){
-            $jsonEncode = json_encode($this->jsonDados);
-            $dados = json_decode($jsonEncode, true);
-            
-        }*/
-    
+    $lista = $carrosPesquisa->listarVeiculos();  
 ?>
 <!DOCTYPE html>
 <html>
