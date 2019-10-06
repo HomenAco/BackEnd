@@ -56,8 +56,5 @@
         </div>
  <?php } ?>
 </div>
-
 </body>
 </html>
-
-<!-- https://carros.seminovosbh.com.br/honda-city-2011-2011-2616093-36399d804657ec831eb92890255ee787f6bb.jpg -->
