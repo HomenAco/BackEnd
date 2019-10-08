@@ -59,14 +59,7 @@
         }
     }
     public function listarVeiculos(){
-        return $this->jsonDados;
-        for($i=0;$i<sizeof($this->jsonDados);$i++){
-            $jsonEncode = json_encode($this->jsonDados);
-            $dados = json_decode($jsonEncode, true);
-            echo $dados[$i]['lista']."<br>";
-        }
-
-     
+        return $this->jsonDados; 
     }
     }
 
